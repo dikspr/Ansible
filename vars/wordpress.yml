@@ -1,8 +1,9 @@
 ---
 server_name: "geek.loc" # тут ваш домен 
-mysql_db: "wordpress" 
-mysql_user: "wordpress"
-mysql_password: "WordpreSS0!"
+# mysql_db: "wordpress" 
+# mysql_user: "wordpress"
+# mysql_password: "WordpreSS0!"
+# mysql_root_password: "D1i1m1a1"
 
 nginx_vhosts:
   - listen: "80"

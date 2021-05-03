@@ -2,9 +2,10 @@
 - hosts: centos-servers
 
   vars_files:
-    - vars/wordpress.yml 
+    - vars/wordpress.yml
+    - vars/wp_vault.yml 
   roles:
-    - geerlingguy.nginx 
-    - geerlingguy.php
+    - geerlingguy.nginx
+    - wordpress 
     - geerlingguy.mysql
-    - wordpress
+    - geerlingguy.php
