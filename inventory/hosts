@@ -7,4 +7,5 @@ all:
     centos-servers:
       hosts:
         192.168.112.12:
+          ansible_user: root
 

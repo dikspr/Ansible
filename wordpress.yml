@@ -5,7 +5,8 @@
     - vars/wordpress.yml
     - vars/wp_vault.yml 
   roles:
-    - geerlingguy.nginx
-    - wordpress 
-    - geerlingguy.mysql
-    - geerlingguy.php
+    - {role: geerlingguy.nginx, tags: [nginx]}
+    - {role: wordpress, tags: [wordpress]} 
+    - {role: geerlingguy.mysql, tags: [mysql]}
+    - {role: geerlingguy.php, tags: [php]}
+
